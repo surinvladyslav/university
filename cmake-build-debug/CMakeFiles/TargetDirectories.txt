@@ -1,0 +1,3 @@
+/Users/surinvladyslav/Desktop/university/cmake-build-debug/CMakeFiles/university.dir
+/Users/surinvladyslav/Desktop/university/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/surinvladyslav/Desktop/university/cmake-build-debug/CMakeFiles/rebuild_cache.dir

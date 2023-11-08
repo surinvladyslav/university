@@ -1,0 +1,16 @@
+# ninja log v5
+0	304	1696914778783199694	CMakeFiles/university.dir/src/assignment3/Assignment3Part3.cpp.o	132e790319f8a750
+337	585	1697730143432948444	university	337adce665e16618
+0	457	1696915950182065368	CMakeFiles/university.dir/src/assignment3/Assignment3Part14.cpp.o	e550d3d88df6beff
+4	537	1697521865126781824	CMakeFiles/university.dir/src/assignment3/Assignment3Part1.14.cpp.o	aa51c1a53823cf9c
+0	2563	1696914578009463809	CMakeFiles/university.dir/src/assignment4/Assignment4Part2.1.cpp.o	cbbe89933afe1a29
+0	66	1698662537187830659	build.ninja	486457cc61aea180
+0	2466	1695712275407144750	CMakeFiles/university.dir/src/assignment3/Assignment3Part15.cpp.o	aa779d2b2387a206
+0	514	1696361869598802409	CMakeFiles/university.dir/src/assignment4/Assignment4Part16.cpp.o	9fe075bb5ffc60b3
+0	337	1697730143186138206	CMakeFiles/university.dir/src/assignment4/Assignment4Part3.14.cpp.o	e518cc34f1fe9d85
+1	567	1695136851493456722	CMakeFiles/university.dir/src/assignment1/Assignment1Part21.cpp.o	46e06b47382a0364
+0	331	1696915000685155406	CMakeFiles/university.dir/src/assignment3/Assignment3Part6.cpp.o	6dafff6e19e1a858
+15	621	1695884391400756724	CMakeFiles/university.dir/src/assignment3/Assignment3Part16.cpp.o	393a419f7f67f6e7
+0	509	1696311685190525548	CMakeFiles/university.dir/src/assignment4/Assignment4Part1.cpp.o	236d066fef1a679
+0	517	1697521848444959979	CMakeFiles/university.dir/src/assignment4/Assignment4Part2.14.cpp.o	cc5d718cfb361c0c
+0	296	1696914596082577554	CMakeFiles/university.dir/src/assignment3/Assignment3Part1.cpp.o	1674c2fd4e0a67cc
