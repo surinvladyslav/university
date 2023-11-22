@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "univers1ity",
+					"name" : "university",
 					"targetIndexes" : 
 					[
 						0
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "university::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-university-Debug-aa3a27df7092cdf73823.json",
+					"jsonFile" : "target-university-Debug-bf17c0a0318bfb0b0cc6.json",
 					"name" : "university",
 					"projectIndex" : 0
 				}
