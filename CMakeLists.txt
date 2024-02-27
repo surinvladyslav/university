@@ -3,4 +3,4 @@ project(university)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(university src/course1/semester2/assignment1/Assignment1Part1.cpp)
+add_executable(university src/course1/semester2/assignment1/Assignment1Part2.cpp)

@@ -129,29 +129,29 @@ university/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/university.dir/build.make CMakeFiles/university.dir/build
 .PHONY : university/fast
 
-src/course1/semester2/assignment1/Assignment1Part1.o: src/course1/semester2/assignment1/Assignment1Part1.cpp.o
-.PHONY : src/course1/semester2/assignment1/Assignment1Part1.o
+src/course1/semester2/assignment1/Assignment1Part2.o: src/course1/semester2/assignment1/Assignment1Part2.cpp.o
+.PHONY : src/course1/semester2/assignment1/Assignment1Part2.o
 
 # target to build an object file
-src/course1/semester2/assignment1/Assignment1Part1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/university.dir/build.make CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.o
-.PHONY : src/course1/semester2/assignment1/Assignment1Part1.cpp.o
+src/course1/semester2/assignment1/Assignment1Part2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/university.dir/build.make CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.o
+.PHONY : src/course1/semester2/assignment1/Assignment1Part2.cpp.o
 
-src/course1/semester2/assignment1/Assignment1Part1.i: src/course1/semester2/assignment1/Assignment1Part1.cpp.i
-.PHONY : src/course1/semester2/assignment1/Assignment1Part1.i
+src/course1/semester2/assignment1/Assignment1Part2.i: src/course1/semester2/assignment1/Assignment1Part2.cpp.i
+.PHONY : src/course1/semester2/assignment1/Assignment1Part2.i
 
 # target to preprocess a source file
-src/course1/semester2/assignment1/Assignment1Part1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/university.dir/build.make CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.i
-.PHONY : src/course1/semester2/assignment1/Assignment1Part1.cpp.i
+src/course1/semester2/assignment1/Assignment1Part2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/university.dir/build.make CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.i
+.PHONY : src/course1/semester2/assignment1/Assignment1Part2.cpp.i
 
-src/course1/semester2/assignment1/Assignment1Part1.s: src/course1/semester2/assignment1/Assignment1Part1.cpp.s
-.PHONY : src/course1/semester2/assignment1/Assignment1Part1.s
+src/course1/semester2/assignment1/Assignment1Part2.s: src/course1/semester2/assignment1/Assignment1Part2.cpp.s
+.PHONY : src/course1/semester2/assignment1/Assignment1Part2.s
 
 # target to generate assembly for a file
-src/course1/semester2/assignment1/Assignment1Part1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/university.dir/build.make CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.s
-.PHONY : src/course1/semester2/assignment1/Assignment1Part1.cpp.s
+src/course1/semester2/assignment1/Assignment1Part2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/university.dir/build.make CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.s
+.PHONY : src/course1/semester2/assignment1/Assignment1Part2.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... university"
-	@echo "... src/course1/semester2/assignment1/Assignment1Part1.o"
-	@echo "... src/course1/semester2/assignment1/Assignment1Part1.i"
-	@echo "... src/course1/semester2/assignment1/Assignment1Part1.s"
+	@echo "... src/course1/semester2/assignment1/Assignment1Part2.o"
+	@echo "... src/course1/semester2/assignment1/Assignment1Part2.i"
+	@echo "... src/course1/semester2/assignment1/Assignment1Part2.s"
 .PHONY : help
 
 

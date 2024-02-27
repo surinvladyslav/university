@@ -69,28 +69,28 @@ include CMakeFiles/university.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/university.dir/flags.make
 
-CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.o: CMakeFiles/university.dir/flags.make
-CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.o: /Users/surinvladyslav/Desktop/university/src/course1/semester2/assignment1/Assignment1Part1.cpp
-CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.o: CMakeFiles/university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/surinvladyslav/Desktop/university/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.o -MF CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.o.d -o CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.o -c /Users/surinvladyslav/Desktop/university/src/course1/semester2/assignment1/Assignment1Part1.cpp
+CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.o: CMakeFiles/university.dir/flags.make
+CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.o: /Users/surinvladyslav/Desktop/university/src/course1/semester2/assignment1/Assignment1Part2.cpp
+CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.o: CMakeFiles/university.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/surinvladyslav/Desktop/university/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.o -MF CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.o.d -o CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.o -c /Users/surinvladyslav/Desktop/university/src/course1/semester2/assignment1/Assignment1Part2.cpp
 
-CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/surinvladyslav/Desktop/university/src/course1/semester2/assignment1/Assignment1Part1.cpp > CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.i
+CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/surinvladyslav/Desktop/university/src/course1/semester2/assignment1/Assignment1Part2.cpp > CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.i
 
-CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/surinvladyslav/Desktop/university/src/course1/semester2/assignment1/Assignment1Part1.cpp -o CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.s
+CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/surinvladyslav/Desktop/university/src/course1/semester2/assignment1/Assignment1Part2.cpp -o CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.s
 
 # Object files for target university
 university_OBJECTS = \
-"CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.o"
+"CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.o"
 
 # External object files for target university
 university_EXTERNAL_OBJECTS =
 
-university: CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part1.cpp.o
+university: CMakeFiles/university.dir/src/course1/semester2/assignment1/Assignment1Part2.cpp.o
 university: CMakeFiles/university.dir/build.make
 university: CMakeFiles/university.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/surinvladyslav/Desktop/university/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable university"
