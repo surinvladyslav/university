@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "university::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-university-Debug-bf17c0a0318bfb0b0cc6.json",
+					"jsonFile" : "target-university-Debug-0ffa7865a05e3f82f143.json",
 					"name" : "university",
 					"projectIndex" : 0
 				}
@@ -55,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 6
 	}
 }
