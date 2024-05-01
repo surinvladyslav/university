@@ -1,56 +1,33 @@
 #include <iostream>
 
-const int MAX_ROWS = 10;
-const int MAX_COLS = 10;
-
-void shiftColumnsLeft(int arr[MAX_ROWS][MAX_COLS], int rows, int cols, int shift) {
-    for (int i = 0; i < rows; ++i) {
-        for (int j = 0; j < cols - shift; ++j) {
-            arr[i][j] = arr[i][j + shift];
+bool dividesEachDigit(int number) {
+    int originalNumber = number;
+    while (number > 0) {
+        int digit = number % 10;
+        if (digit == 0 || originalNumber % digit != 0) {
+            return false;
         }
-        for (int j = cols - shift; j < cols; ++j) {
-            arr[i][j] = 1;
-        }
+        number /= 10;
     }
+    return true;
 }
 
-void printArray(int arr[MAX_ROWS][MAX_COLS], int rows, int cols) {
-    std::cout << "Array:" << std::endl;
-    for (int i = 0; i < rows; ++i) {
-        for (int j = 0; j < cols; ++j) {
-            std::cout << arr[i][j] << " ";
+void findNumbers(int n) {
+    std::cout << "Natural numbers up to " << n << " that divide each of their digits: ";
+    for (int i = 1; i <= n; ++i) {
+        if (dividesEachDigit(i)) {
+            std::cout << i << " ";
         }
-        std::cout << std::endl;
     }
+    std::cout << std::endl;
 }
 
 int main() {
-    int rows, cols, shift;
+    int n;
+    std::cout << "Enter the value of n: ";
+    std::cin >> n;
 
-    std::cout << "Enter number of rows: ";
-    std::cin >> rows;
-    std::cout << "Enter number of columns: ";
-    std::cin >> cols;
-
-    int arr[MAX_ROWS][MAX_COLS];
-
-    std::cout << "Enter elements of the array:" << std::endl;
-    for (int i = 0; i < rows; ++i) {
-        for (int j = 0; j < cols; ++j) {
-            std::cin >> arr[i][j];
-        }
-    }
-
-    std::cout << "Enter number of positions to shift left: ";
-    std::cin >> shift;
-
-    shiftColumnsLeft(arr, rows, cols, shift);
-
-    std::cout << "Initial array:" << std::endl;
-    printArray(arr, rows, cols);
-
-    std::cout << "Array after shifting columns left:" << std::endl;
-    printArray(arr, rows, cols);
+    findNumbers(n);
 
     return 0;
 }

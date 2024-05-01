@@ -8,11 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/surinvladyslav/Desktop/university/src/course1/semester2/assignment2/Assignment2Part3.cpp" "CMakeFiles/university.dir/src/course1/semester2/assignment2/Assignment2Part3.cpp.o" "gcc" "CMakeFiles/university.dir/src/course1/semester2/assignment2/Assignment2Part3.cpp.o.d"
+  "/Users/surinvladyslav/Desktop/university/src/course1/semester2/assignment5/Assignment5Part2.5.cpp" "CMakeFiles/university.dir/src/course1/semester2/assignment5/Assignment5Part2.5.cpp.o" "gcc" "CMakeFiles/university.dir/src/course1/semester2/assignment5/Assignment5Part2.5.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
 set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
